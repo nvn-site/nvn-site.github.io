@@ -2,29 +2,33 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#d0d5cd;   /* background color */
+	background-color:#D0D5CD;   /* background color */
 	color: #444;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-h1, h2 { 
-	text-align:center;     /* centers h1 and h2 content */
+h1, h2 {  
+   text-align:center;   /* centers h1 and h2 content */
+   color:#103E02;       /* exploring new text color */
+}
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
-#wrapper {
-	width:900px;
-	margin:0 auto;    /* centers wrapper */
+   #wrapper { 	
+        width: 900px; 	
+ margin: 0 auto; /* centers wrapper */ 	
 }
 
+
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
-.stepTitle{
-	padding:4px;
-	text-align:left;
-	font-size:16px;
-	background-color:#F7B857
- }
+.stepTitle { 
+   padding:4px; 	
+   text-align:left; 	
+   font-size:16px;
+   background-color:#F7B857
+} 
+
 
 .stepContent{ 
 	background-color: white;
@@ -42,6 +46,10 @@ h1, h2 {
 	width:40%;	
 	padding:5px;
 	text-align: center;
+}
+img { 
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 
 
