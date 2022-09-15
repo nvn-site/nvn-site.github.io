@@ -52,9 +52,13 @@ border-radius: 20px;
 box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 
-.warning }
+.warning {
 	background-color:#FBB8C4;
 	padding:10px;
 	border-radius:20px;
 }
 
+.material-icons {
+	color:red;
+	font-size:3em;
+}
