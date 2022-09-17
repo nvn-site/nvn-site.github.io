@@ -1,0 +1,32 @@
+@charset "utf-8";
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: blanchedalmond;  
+}
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  plum; 
+	color:  black; 
+}
+a:hover {
+	font-size:200%;
+	background-color: red; 
+	color: yellow; 
+}
+
+/* CSS Document */
+
