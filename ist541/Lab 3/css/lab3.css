@@ -13,13 +13,13 @@ body {
 }
 body {
 	text-align: center;
-	background-color: blanchedalmond;  
+	background-color: tan;  
 }
 a {
 	padding: 15px;
 margin: 3px;
 	font-size: 125%;
-	background-color:  plum; 
+	background-color: white; 
 	color:  black; 
 }
 a:hover {
@@ -27,6 +27,7 @@ a:hover {
 	background-color: red; 
 	color: yellow; 
 }
+
 
 /* CSS Document */
 
