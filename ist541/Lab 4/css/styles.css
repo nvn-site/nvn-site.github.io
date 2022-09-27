@@ -30,3 +30,32 @@ h1, h2 {
 audio { 
 	width:200px;   /* sets the width of the audio controls */
 }
+ 
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: red;  
+}
+body {
+	text-align: center;
+	background-color: tan;  
+}
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color: white; 
+	color:  black; 
+}
+a:hover {
+	font-size:200%;
+	background-color: red; 
+	color: yellow; 
+}
