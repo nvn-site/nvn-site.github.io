@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+<h1>What Chemical is used to Clean a Porcelin Toilet Bowl?</h1>
+<h3>Click on one of the following choices</h3>
+
+ <h2 onclick="wrongAnswer1()" class="choices"> SD-20 </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> Consume Eco-Lyzer </h2>
+<h2 onclick="rightAnswer()" class="choices"> NABC </h2>
+
+
+<div id="feedback"></div>
+<img id="koala_eating" src="img/NABC.jpg" />
+</div>
+	
+	 <script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Formulated without acid, NABC cleans, disinfects, and deodorizes toilet bowls, urinals and other restroom surfaces. </h2>");
+         $("#NABC").show();
+      }
+		  function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> An all-surface cleaner and can be used on floors, painted walls, woodwork, marble, plastic, metal and other hard surfaces impervious to water. </h2>");
+      $("#koala_eating").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> Used for surfaces made of steel. Cleans, disinfects, and digests residual organic soils </h2>");
+      $("#koala_eating").hide();
+   }
+ 
+   </script>
+
+	
+ </body>
+
+	
+</html>
