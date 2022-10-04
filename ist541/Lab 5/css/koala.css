@@ -26,10 +26,10 @@ margin: 3px;
 	background-color: white; 
 	color:  black; 
 }
-a:hover {
+h2:hover {
 	font-size:200%;
-	background-color: red; 
-	color: yellow; 
+	background-color: goldenrod; 
+	color: black; 
 	
 	.container {
   line-height: 1.4;
