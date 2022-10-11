@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Which chemicals would you use to clean this breakroom?</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/hotspot.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/hotspot.js"></script>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel"> 
+           Feedback
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div id="feedback"></div>
+      </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">       
+ <h2>Which chemicals would you use to clean this breakroom?</h2>
+ <h3> Click on an area to find out! </h3>
+ <div id="feedback"></div>
+		
+ <p><img src="img/breakroom.jpg" alt="" width="432" height="324" usemap="#sinkMap" id="sink"/>
+   <map name="sinkMap">
+	   
+     <area shape="rect" coords="307,156,322,180" href="#">
+     <area id="Refrigerator" shape="rect" coords="166,88,215,175" href="https://shop.waxie.com/mStorefront/itemDetail.do?item-id=119151&order-quantity=1&customer-item=1329704&order-uom=&warehouse-id=41&item-number=1329704" alt="Clean refrigorator " title="Refrigerator" >
+	   
+     <area id="Table"  shape="circle" coords="314,186,49" href="https://shop.waxie.com/mStorefront/itemDetail.do?item-id=131443&order-quantity=1&customer-item=1002004&order-uom=&warehouse-id=37&item-number=1002004" alt="Clean table" title="Table" >
+     
+	 <area id="Trash" shape="poly" coords="14,181,43,179,90,209,93,303,39,318" href="https://shop.waxie.com/mStorefront/itemDetail.do?item-id=131443&order-quantity=1&customer-item=1002004&order-uom=&warehouse-id=37&item-number=1002004" alt="Clean trash cans" title="Trash" >
+   </map>
+ </p>
+ <p><br />
+   <br />
+ </p>
+ <div style="font-size:10px">Image Courtesy of Nichol Veles.</div><br /> 
+</div><!--closing wrapper-->
+
+	
+</body>
+</html>
