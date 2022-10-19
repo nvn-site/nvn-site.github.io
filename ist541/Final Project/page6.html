@@ -1,16 +1,55 @@
-@charset "utf-8";
-/* CSS Document */
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chemicals</title>
+<link rel="stylesheet" type="text/css" href="css/hotspot.css">
 
-body {
-      background: black;   /* background color */
-      color: black;        /* text color */
-      font-size: 12px;
-      font-family:Verdana, Geneva, sans-serif;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-#wrapper {
-      width:900px;
-      margin:0 auto;      /* centers wrapper */
-      background: white;  /* background color */
-      text-align:center;  /* centers wrapper content */
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/hotspot.js"></script>
+	
+	<div id="feedback">
+		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel"> 
+           Feedback: The counter, table and trash are all cleaned using SD-20. While the stainless steel refrigerator and sink are cleaned with Consume Eco-Lyzer.
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div id="feedback"></div>
+      </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+</head>
+
+
+<body>
+		
+	<div id="wrapper">       
+ <h2>Which chemicals would you use to clean this breakroom?</h2>
+ <h3> Click on it! </h3>
+ <div id="feedback"></div>
+ <img src="img/breakroom.jpg" alt="Table" width="403" height="302" usemap="#Map"/>
+ <map name="Map">
+   <area shape="rect" coords="156,79,195,156" href="#" alt="Refrigerator" title="Refrigerator" >
+   <area shape="circle" coords="299,173,48" href="#">
+   <area shape="poly" coords="15,169,45,166,63,185,88,209,86,285,36,294" href="#" alt="Trash" title="Trash" >
+   <area shape="rect" coords="66,99,126,138" href="#" alt="Sink" title="Sink" >
+ </map>
+<br /><br />
+  <div style="font-size:10px">Image Courtesy of Nichol Veles</div><br /> 
+</div><!--closing wrapper-->
+
+</body>
+</html>

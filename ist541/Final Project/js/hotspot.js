@@ -22,6 +22,7 @@ $( function() {
          $("#feedback").html("The table is cleaned with Consume Eco-Lyzer and the white towel. But the counter is cleaned with SD_20 and the green towel.");
       }  
   $("#feedback").css("backgroundColor","yellow");
+$('#myModal').modal("show");
 
    });
 }); //end main jQuery function
