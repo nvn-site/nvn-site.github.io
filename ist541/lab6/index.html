@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Which chemicals would you use to clean this breakroom?</title>
-	
-	<link href="css/hotspot.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>Chemicals</title>
+<link rel="stylesheet" type="text/css" href="css/hotspot.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,13 +12,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script src="js/hotspot.js"></script>
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+	
+	<div id="feedback">
+		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="gridSystemModalLabel"> 
-           The sink, table and trash are all cleaned using SD-20. While the stainless steel refrigerator is cleaned with Consume Eco-Lyzer.
+           Feedback: The counter, table and trash are all cleaned using SD-20. While the stainless steel refrigerator and sink are cleaned with Consume Eco-Lyzer.
         </h4>
       </div>
       <div class="modal-body">
@@ -29,34 +30,26 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-
-	
+	</div>
 </head>
+
 
 <body>
 	
 	<div id="wrapper">       
  <h2>Which chemicals would you use to clean this breakroom?</h2>
- <h3> Click on an area to find out! </h3>
+ <h3> Click on it! </h3>
  <div id="feedback"></div>
-		
- <p><a href="Sink"><img src="img/breakroom.jpg" alt="" width="432" height="324" usemap="#sinkMap" id="sink"/></a>
-   <map name="sinkMap">
-	   
-     <area shape="rect" coords="307,156,322,180" href="#">
-     <area id="Refrigerator" shape="rect" coords="166,88,215,175"  alt="Clean refrigorator " title="Refrigerator" >
-	   
-     <area id="Table"  shape="circle" coords="314,186,49"  alt="Clean table" title="Table" >
-     <area id="Trash" shape="poly" coords="14,181,43,179,90,209,93,303,39,318"  alt="Clean trash cans" title="Trash" >
-     <area id="Sink" shape="rect" coords="72,109,132,146"  alt="Clean the sink" title="Sink">
-   </map>
- </p>
- <p><br />
-   <br />
- </p>
- <div style="font-size:10px">Image Courtesy of Nichol Veles.</div><br /> 
+ <img src="img/breakroom.jpg" alt="Table" width="403" height="302" usemap="#Map"/>
+ <map name="Map">
+   <area shape="rect" coords="156,79,195,156" href="#" alt="Refrigerator" title="Refrigerator" >
+   <area shape="circle" coords="299,173,48" href="#">
+   <area shape="poly" coords="15,169,45,166,63,185,88,209,86,285,36,294" href="#" alt="Trash" title="Trash" >
+   <area shape="rect" coords="66,99,126,138" href="#" alt="Sink" title="Sink" >
+ </map>
+<br /><br />
+  <div style="font-size:10px">Image Courtesy of Nichol Veles</div><br /> 
 </div><!--closing wrapper-->
 
-	
 </body>
 </html>
